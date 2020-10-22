@@ -25,7 +25,7 @@ $spaceamounts: (1,2,3,4,5);
 
 @each $space in $spaceamounts {
   // All Margin
-  .my-#{$space} {
+  .m-#{$space} {
     margin: #{$space}rem;
   }
   
@@ -35,12 +35,12 @@ $spaceamounts: (1,2,3,4,5);
   }
   
   // All PAdding
-  .my-#{$space} {
+  .p-#{$space} {
     padding: #{$space}rem;
   } 
 
   // Vertical Padding
-  .my-#{$space} {
+  .py-#{$space} {
     padding: #{$space}rem;
   } 
 }
